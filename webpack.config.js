@@ -1,8 +1,8 @@
 var webpack = require('webpack');
 var path = require('path');
 
-var appPath = path.join(__dirname, 'app');
-var outputPath = path.join(__dirname, 'scripts');
+var appPath = path.join(__dirname, 'scripts');
+var outputPath = path.join(__dirname, 'wwwroot','js');
 
 module.exports = [{
   entry: {
